@@ -1,0 +1,35 @@
+---
+title: "p8105_hw3_bh2852"
+author: "Beicheng Huang"
+date: "2023-10-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries}
+library(tidyverse)
+```
+
+
+
+##Q2
+
+```{r }
+library(p8105.datasets)
+data("brfss_smart2010")
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
